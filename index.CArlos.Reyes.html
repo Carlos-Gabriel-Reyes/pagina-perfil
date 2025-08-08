@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>pagina perfil</title>
+</head>
+<body>
+    <header class="barra-navegacion">
+        <h2>Perfil</h2>
+        <h3>Inicio</h3>
+        <h3>Mi perfil</h3>
+        <h3>Encontrar Conexiones</h3>
+        <button type="button" class="cerrar-sesion">Cerrar Sesión</button>
+    </header>
+<div class="pagina">
+    <div class="izquierda">
+        <div class="tarjeta-usuario">
+            <div></div>
+            <img src="./imagenes/yo.jpg" alt="perfil de usuario">
+            <h3 class="nombre de usuario">Carlos Gabriel Reyes</h3>
+            <p>santiago, Chile</p>
+            <p>Desarrollador web</p>
+            <p>Programador con experiencia en desarrollo de software, enfocado en la creación de soluciones eficientes, escalables y bien documentadas. Manejo de múltiples lenguajes como JavaScript, Python y Java.</p>
+            <button type="button" class="button">⚙️edit profile</button>
+        </div>
+        <div class="educacion">
+            <h3 class="titulo-educacion">Educacion</h3>
+            <p>coding Dojo - Bootcamp de desarrollo full stack</p>
+            <p>Dic 2019 - Mar 2020</p>
+            <p>Triple cinturon negro en Python, JavaScript, Html, css</p>
+        </div>
+    </div>
+    <div class="Derecha">
+        <div class="Solicitudes">
+            <h3 class="titulo-solicitudes">Solicitudes de Conexiones(2)</h3>
+            <ul>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Karen_C._Handel.jpg" alt="karen profile" class="fotos-solicitudes">
+                    <span class="nombre-solicitud">Karen Gonzalez</span>
+                        <div class="botones">
+                            <button>✔</button>
+                            <button>✖</button>
+                        </div>
+                </li>
+                <li>
+                    <img src="data:image/jpeg;base64,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" alt="camilo profile" class="fotos-solicitudes">
+                    <span class="nombre-solicitud">camilo perez</span>
+                        <div class="botones">
+                            <button>✔</button>
+                            <button>✖</button>
+                        </div>
+                </li>
+            </ul>
+        </div>
+        <div class="Conexiones">
+            <h3 class="titulo-conexiones">Tus Conexiones</h3>
+            <ul>
+                <li> <img src="https://static.vecteezy.com/system/resources/thumbnails/015/241/476/small/pastel-pink-watercolor-heart-png.png" alt="perfil Shannon" class="fotos-conexiones"> Shannon Kristoff </li>
+                <li> <img src="https://pm1.aminoapps.com/7062/dbaeb0696e0e7beb5d790eb130c7e2dd61b109a4r1-440-479v2_hq.jpg" alt="Yamil profile" class="fotos-conexiones"> Yamil Gonzalez </li>
+                <li> <img src="https://www.shutterstock.com/image-photo/argentinas-president-alberto-fernandez-holds-600nw-2336691187.jpg" alt="Alberto profile" class="fotos-conexiones"> Alberto Gomez </li>
+                <li> <img src="https://i.pinimg.com/736x/51/bb/92/51bb9272d8706b95f2ee613166f8b7a0.jpg" alt="Valentina profile" class="fotos-conexiones">Valentina Torres</li>
+                <li> <img src="https://i.pinimg.com/474x/df/8d/c6/df8dc6ab1d401ddd7b896fe0e7746342.jpg" alt="olivia profile" class="fotos-conexiones">olivia Gerudo</li>
+                <li> <img src="https://w7.pngwing.com/pngs/197/782/png-transparent-red-ant-illustration-ant-ants-decorative-insects-happy-birthday-vector-images-thumbnail.png" alt="Carlos profile" class="fotos-conexiones">CArlos Gimenez</li>
+            </ul>
+        </div>    
+    </div>
+</div>
+</body>
+</html>
